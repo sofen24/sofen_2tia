@@ -88,7 +88,7 @@
                     </a>
                 </li>
                 <li class="nav-item  active ">
-                    <a href="{{ route('pelanggan.create') }}" class="nav-link">
+                    <a href="{{ route('dashboard') }}" class="nav-link">
                         <span class="sidebar-icon">
                             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
@@ -291,7 +291,7 @@
                     <p class="mb-0">Form untuk menambahkan data pelanggan baru.</p>
                 </div>
                 <div>
-                    <a href="" class="btn btn-primary"><i class="far fa-question-circle me-1"></i> Kembali</a>
+                    <a href="{{route('pelanggan.index')}}" class="btn btn-primary"><i class="far fa-question-circle me-1"></i> Kembali</a>
                 </div>
             </div>
         </div>
